@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Books Corner</string>
+    <string name="action_settings">Logout</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="yes">Yes</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_email">Email</string>
+    <string name="login_pass">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_register_Btn">Register</string>
+    <string name="book_name">Book Name</string>
+    <string name="book_author">Book Author</string>
+    <string name="edit_Btn">Edit</string>
+    <string name="book_source">Book URL (Optional)</string>
+    <string name="back_home">Back Home</string>
+</resources>

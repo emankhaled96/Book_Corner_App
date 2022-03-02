@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addbookbackground"
+    tools:context=".UI.AddDataActivity">
+
+
+    <ImageView
+        android:id="@+id/addImageView"
+        android:layout_width="239dp"
+        android:layout_height="160dp"
+        android:src="@drawable/addbook"
+        app:layout_constraintBottom_toTopOf="@+id/addBookNameTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/addBookAuthorTxt"
+
+        android:layout_width="367dp"
+        android:layout_height="63dp"
+        android:background="@drawable/input_text"
+        android:ems="10"
+        android:hint="@string/book_author"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/addBookUrlTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBookNameTxt" />
+
+    <EditText
+        android:id="@+id/addBookNameTxt"
+
+        android:layout_width="367dp"
+        android:layout_height="63dp"
+        android:background="@drawable/input_text"
+        android:ems="10"
+        android:hint="@string/book_name"
+        android:inputType="textPersonName"
+
+        android:minHeight="48dp"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/addBookAuthorTxt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addImageView" />
+
+
+    <EditText
+        android:id="@+id/addBookUrlTxt"
+
+        android:layout_width="367dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/input_text"
+        android:ems="10"
+
+        android:hint="@string/book_source"
+        android:minHeight="48dp"
+        android:textColor="@color/blue"
+        android:textColorHint="@color/blue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toTopOf="@+id/addSavebutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBookAuthorTxt" />
+
+    <Button
+        android:id="@+id/addSavebutton"
+
+        android:layout_width="101dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="204dp"
+        android:background="@drawable/btn_style_2"
+        android:text="Add"
+        android:textAllCaps="false"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addBookUrlTxt" />
+</androidx.constraintlayout.widget.ConstraintLayout>
